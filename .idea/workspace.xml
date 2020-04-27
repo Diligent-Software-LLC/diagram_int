@@ -25,25 +25,11 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3050d579-c69f-415f-922f-b0dc8caae0e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/diagram_int.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diagram_int.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/diagram_int.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/diagram_int/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/diagram_int_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+    <list default="true" id="3050d579-c69f-415f-922f-b0dc8caae0e5" name="Default Changelist" comment="Added version.rb YARDocumentation. Added a Gem Specification file. Added a README.md.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/diagram_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/diagram_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/diagram_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +57,42 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ytplugin.issueListCompactView" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="DiagramIntTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="diagram_int" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/diagram_int_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.DiagramIntTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -82,11 +104,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587951129490</updated>
-      <workItem from="1587951133199" duration="1815000" />
+      <workItem from="1587951133199" duration="2692000" />
     </task>
+    <task id="LOCAL-00001" summary="Added version.rb YARDocumentation. Added a Gem Specification file. Added a README.md.">
+      <created>1587993106922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587993106922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Diagram Subsystem:{ No Subsystem } Component: Interface Sprints: 1 State: Setup" />
+        <option name="defaultSearch" value="project: Diagram Subsystem:{ No Subsystem } Component: Interface Sprints: 1 State: Development" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -94,31 +124,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added version.rb YARDocumentation. Added a Gem Specification file. Added a README.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added version.rb YARDocumentation. Added a Gem Specification file. Added a README.md." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="443" y="175" key="#Servers" timestamp="1587991257099">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587991257099" />
-    <state x="436" y="112" key="CommitChangelistDialog2" timestamp="1587992940749">
+    <state x="136" y="51" width="1436" height="893" key="CommitChangelistDialog2" timestamp="1587993383483">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="436" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587992940749" />
-    <state width="1539" height="269" key="GridCell.Tab.0.bottom" timestamp="1587992952419">
+    <state x="136" y="51" width="1436" height="893" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587993383483" />
+    <state width="1539" height="269" key="GridCell.Tab.0.bottom" timestamp="1587993807360">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587992952419" />
-    <state width="1539" height="269" key="GridCell.Tab.0.center" timestamp="1587992952418">
+    <state width="1539" height="269" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587993807360" />
+    <state width="1539" height="269" key="GridCell.Tab.0.center" timestamp="1587993807360">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587992952418" />
-    <state width="1539" height="269" key="GridCell.Tab.0.left" timestamp="1587992952417">
+    <state width="1539" height="269" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587993807360" />
+    <state width="1539" height="269" key="GridCell.Tab.0.left" timestamp="1587993807359">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587992952417" />
-    <state width="1539" height="269" key="GridCell.Tab.0.right" timestamp="1587992952418">
+    <state width="1539" height="269" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587993807359" />
+    <state width="1539" height="269" key="GridCell.Tab.0.right" timestamp="1587993807360">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587992952418" />
+    <state width="1539" height="269" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587993807360" />
     <state x="352" y="149" key="SettingsEditor" timestamp="1587992749837">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -127,9 +162,12 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1587991866068" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587992106345">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587993705467">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587992106345" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587993705467" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/diagram_int@DiagramIntTest.rcov" NAME="DiagramIntTest Coverage Results" MODIFIED="1587993802724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram_int" />
   </component>
 </project>
