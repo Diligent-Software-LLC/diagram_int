@@ -41,6 +41,12 @@
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1b6ScaFlBT2zTbduc44EgHzvADm" />
@@ -196,10 +202,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587991257099" />
-    <state x="136" y="51" width="1436" height="893" key="CommitChangelistDialog2" timestamp="1588099409658">
+    <state x="136" y="51" width="1436" height="893" key="CommitChangelistDialog2" timestamp="1588099839561">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="136" y="51" width="1436" height="893" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588099409658" />
+    <state x="136" y="51" width="1436" height="893" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588099839561" />
     <state width="1545" height="269" key="GridCell.Tab.0.bottom" timestamp="1588098859976">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -220,14 +226,18 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="352" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1587992749837" />
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2" timestamp="1588099866350">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1588099866350" />
     <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1587991866068">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1587991866068" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1588099545149">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1588099912140">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1588099545149" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1588099912140" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/diagram_int@DiagramIntTest.rcov" NAME="DiagramIntTest Coverage Results" MODIFIED="1588098855337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram_int" />

@@ -9,7 +9,7 @@ A Diagram library interface.
 
 ## Documentation
 
-- Refer the Interface's  
+- Refer the Interface's 
 [Homepage](https://docs.diligentsoftware.org/diagram-1/interface).
 
 ## Contributing
