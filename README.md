@@ -5,7 +5,7 @@ A Diagram library interface.
 ## Installation
 
 - Refer the Interface 
-[Packages](https://docs.diligentsoftware.org/diagram-1/packages/interface).
+[Packages](https://docs.diligentsoftware.org/diagram-1/packages#interface).
 
 ## Documentation
 
