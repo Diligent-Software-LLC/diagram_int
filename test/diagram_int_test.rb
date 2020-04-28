@@ -46,6 +46,10 @@ class DiagramIntTest < Minitest::Test
     assert_includes(@pub_cm, :backward_arrow)
     assert_includes(@pub_cm, :forward_arrow)
     assert_includes(@pub_cm, :pipe)
+    assert_includes(@pub_cm, :space)
+    assert_includes(@pub_cm, :build)
+    assert_includes(@pub_cm, :diagrammable)
+    assert_includes(@pub_cm, :verify_diagrammable)
 
   end
 
